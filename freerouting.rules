@@ -1,0 +1,82 @@
+
+(rules PCB freerouting.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute off)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.5)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "unconnected-(A1-PadD7)" "Net-(A1-PadD12)" "unconnected-(A1-PadA2)" "Net-(A1-D3_INT1)" "unconnected-(A1-PadVIN)" "unconnected-(A1-PadD6)" "unconnected-(A1-PadA1)" "unconnected-(A1-GND-PadGND1)"
+    "unconnected-(A1-PadSCL)" "unconnected-(A1-SPI_MISO-PadMISO)" "unconnected-(A1-SPI_5V-Pad5V2)" GND "unconnected-(A1-PadA0)" "Net-(A1-PadA4)" "unconnected-(A1-PadA3)" "unconnected-(A1-PadD8)"
+    "/5V_pin" "/RTC_DATA" "unconnected-(A1-RESET-PadRST1)" "/RTC_CLK" "unconnected-(A1-SPI_MOSI-PadMOSI)" "unconnected-(A1-SPI_GND-PadGND4)" "unconnected-(A1-D0{slash}RX-PadD0)" "unconnected-(A1-SPI_SCK-PadSCK)"
+    "unconnected-(A1-SPI_RESET-PadRST2)" "unconnected-(A1-D1{slash}TX-PadD1)" "unconnected-(A1-PadAREF)" "unconnected-(A1-PadD9)" "Net-(A1-PadA5)" "/RTC_RST" "Net-(A1-PadD11)" "Net-(A1-PadD13)"
+    "unconnected-(A1-PadSDA)" "unconnected-(A1-IOREF-PadIORF)" "unconnected-(A1-D10_CS-PadD10)" "unconnected-(A1-3.3V-Pad3V3)" "Net-(J1-Pin_1)" "Net-(J2-Pin_3)" "Net-(J3-Pin_3)" "Net-(D1-BA)"
+    "Net-(D1-RA)" "Net-(D1-GA)" "Net-(U1-VCC1)" "Net-(U1-X2)" "Net-(U1-X1)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
