@@ -1,0 +1,343 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "93d943f8-2f1f-47af-8720-a5ac9ef9a0be")
+	(paper "A4")
+	(title_block
+		(title "Smart Home Capstone")
+		(date "2025-10-31")
+		(rev "0")
+	)
+	(lib_symbols)
+	(junction
+		(at 105.41 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd10b19-e97a-49d2-929d-b1cb81751475")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 111.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00df8360-50fb-49ea-9c02-812b693f874b")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 100.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f367fe-10f9-48ea-86e1-ed9d5c5288f9")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54373050-9eac-455b-bf52-ef9f6ec0937d")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ac1a0e-5f93-4d39-a8b0-8bca0cc2482c")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa8971d-6dc1-4907-a962-f30dc1502758")
+	)
+	(wire
+		(pts
+			(xy 102.87 36.83) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97000e22-7d11-4955-9eb5-e24cac731dd0")
+	)
+	(wire
+		(pts
+			(xy 100.33 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b4a9ed-21e3-485d-a686-0e8122947ee2")
+	)
+	(wire
+		(pts
+			(xy 105.41 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f25366-ef5d-4f93-93f7-55c4618ce1a7")
+	)
+	(wire
+		(pts
+			(xy 102.87 36.83) (xy 111.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6dfb293-5885-4da5-876c-e472bf2bb96d")
+	)
+	(sheet
+		(at 111.76 31.75)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d33b991-ebd3-47c2-b368-2e09482c4f58")
+		(property "Sheetname" "Security System"
+			(at 111.76 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SecuritySystem.kicad_sch"
+			(at 111.76 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 111.76 49.53 180)
+			(uuid "6e0ed60b-9565-416c-ab37-40a255b8cad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3" input
+			(at 111.76 36.83 180)
+			(uuid "c56340ec-fb0a-4bfd-8654-3025de8c76b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartHouseCapstone"
+				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 68.58)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1f8b576-13cb-457c-aca1-2dedc0faee45")
+		(property "Sheetname" "Automatic Garage Door"
+			(at 111.76 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AutomaticGarageDoor.kicad_sch"
+			(at 111.76 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 111.76 86.36 180)
+			(uuid "9f95969c-e6bf-4695-b8bf-1e1f66f0bf53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartHouseCapstone"
+				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 68.58)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de0812d0-5865-4fb6-9830-93d2c756241e")
+		(property "Sheetname" "Power Distribution"
+			(at 62.23 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerDistribution.kicad_sch"
+			(at 62.23 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" output
+			(at 100.33 73.66 0)
+			(uuid "eab29e26-b22f-4a5c-8da4-af33c3a1441a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 100.33 86.36 0)
+			(uuid "715ca61a-8b55-4cc0-a8dc-4c49ca58cbaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmartHouseCapstone"
+				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 105.41)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1b87670-e9f1-4635-87f7-7b07b6b87774")
+		(property "Sheetname" "Lighting Control System"
+			(at 111.76 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LightingControlSystem.kicad_sch"
+			(at 111.76 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 111.76 124.46 180)
+			(uuid "77cad276-557c-4a1e-b10d-b1c27c6269e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartHouseCapstone"
+				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
