@@ -3657,6 +3657,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 165.1 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57e6ae6b-760a-4eb5-b598-98046f633b75")
+		(property "Reference" "R27"
+			(at 167.64 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 167.64 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 163.322 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16806664-e72d-4e5c-9881-453bd749767e")
+		)
+		(pin "1"
+			(uuid "d78ed075-7916-401e-b1f7-a3f7b29a40b3")
+		)
+		(instances
+			(project ""
+				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be/3d33b991-ebd3-47c2-b368-2e09482c4f58"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 86.36 0)
 		(unit 1)
@@ -4059,6 +4129,72 @@
 			(project ""
 				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be/3d33b991-ebd3-47c2-b368-2e09482c4f58"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c517387-7712-4332-857f-097b5d863ba2")
+		(property "Reference" "#PWR019"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "192d784d-42cc-462f-b608-1e6e2425549c")
+		)
+		(instances
+			(project ""
+				(path "/93d943f8-2f1f-47af-8720-a5ac9ef9a0be/3d33b991-ebd3-47c2-b368-2e09482c4f58"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4560,7 +4696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "100"
 			(at 88.9 137.16 0)
 			(effects
 				(font
