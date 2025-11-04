@@ -7,7 +7,11 @@
 	(title_block
 		(title "Lighting Control System")
 		(date "2025-10-31")
-		(rev "0")
+		(rev "2")
+		(comment 1 "Designed by: Sidney Manzano")
+		(comment 2 "Released under the Creative Commons")
+		(comment 3 "Attribution Share-Alike 4.0 License")
+		(comment 4 "https://creativecommons.org/licenses/by-sa/4.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x09"
@@ -1834,12 +1838,6 @@
 		(uuid "052de253-62c6-4906-b2e2-b4ed9781da9d")
 	)
 	(junction
-		(at 101.6 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08f4b970-0899-4dd8-9cd8-5e03aeb3919d")
-	)
-	(junction
 		(at 166.37 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1864,12 +1862,6 @@
 		(uuid "821720a9-2bde-4d08-a2f1-86b1cedeb052")
 	)
 	(junction
-		(at 93.98 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "977802c3-57c4-4df8-b11a-e395ae1bc8ba")
-	)
-	(junction
 		(at 166.37 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1892,6 +1884,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3e19389-9277-4671-b615-9fa224479b52")
+	)
+	(junction
+		(at 93.98 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff1adf98-de31-4156-a97a-dc7610385893")
 	)
 	(no_connect
 		(at 114.3 92.71)
@@ -1969,16 +1967,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 64.77) (xy 101.6 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f6b088-bd84-4257-83a3-8d9ffe52728a")
-	)
-	(wire
-		(pts
 			(xy 218.44 99.06) (xy 222.25 99.06)
 		)
 		(stroke
@@ -1996,16 +1984,6 @@
 			(type default)
 		)
 		(uuid "0ce5497b-d035-4cdf-a24d-a9d49bbfc6cd")
-	)
-	(wire
-		(pts
-			(xy 101.6 72.39) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10be5c00-ee88-4ee5-81dc-fa07de6b399c")
 	)
 	(wire
 		(pts
@@ -2116,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "34cb9548-bd15-4002-b223-f73b4e2e136c")
+	)
+	(wire
+		(pts
+			(xy 93.98 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397e4f87-5da3-4056-93c8-b9077fac08c7")
 	)
 	(wire
 		(pts
@@ -2276,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "6b25e65c-ad66-486e-bb1a-fe14c2beabb3")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bca5d51-9d52-463e-9943-38b678c484bb")
 	)
 	(wire
 		(pts
@@ -2449,6 +2447,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 83.82) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9208ad4f-a4d6-465c-a953-63b4508a7f03")
+	)
+	(wire
+		(pts
 			(xy 218.44 106.68) (xy 218.44 99.06)
 		)
 		(stroke
@@ -2476,16 +2484,6 @@
 			(type default)
 		)
 		(uuid "9dcf2e64-51a8-4b23-835c-60f7937375e6")
-	)
-	(wire
-		(pts
-			(xy 85.09 64.77) (xy 93.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ddf6462-66b1-4e4c-ad58-0c7f65881b51")
 	)
 	(wire
 		(pts
@@ -2559,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 76.2) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ddbfc1-ec96-4b59-8c96-38c6650524cf")
+	)
+	(wire
+		(pts
 			(xy 92.71 100.33) (xy 92.71 101.6)
 		)
 		(stroke
@@ -2619,16 +2627,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 72.39) (xy 93.98 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27ba4df-719c-46a6-9462-da588b8a5924")
-	)
-	(wire
-		(pts
 			(xy 218.44 83.82) (xy 222.25 83.82)
 		)
 		(stroke
@@ -2666,6 +2664,16 @@
 			(type default)
 		)
 		(uuid "c9a0cc1b-5c7e-4224-bdff-2c0a7fe116e3")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5231c58-0ab9-4ce7-95ce-6672c47b39b7")
 	)
 	(wire
 		(pts
@@ -2759,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 64.77) (xy 114.3 64.77)
+			(xy 85.09 64.77) (xy 114.3 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3147,6 +3155,17 @@
 		)
 		(uuid "fe9ec060-07f2-4b82-9203-87aa2b2ecbb1")
 	)
+	(hierarchical_label "3v3"
+		(shape input)
+		(at 90.17 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67677912-695d-42b9-9c1c-f5e16e491695")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 69.85 64.77 180)
@@ -3176,7 +3195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 162.56 96.774 90)
 			(effects
 				(font
@@ -3474,7 +3493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 101.6 99.314 90)
 			(effects
 				(font
@@ -3699,7 +3718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 162.56 81.534 90)
 			(effects
 				(font
@@ -3752,7 +3771,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 93.98 68.58 0)
+		(at 93.98 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3760,7 +3779,7 @@
 		(dnp no)
 		(uuid "375b18f6-9c8b-4916-88ea-212b221fc1d1")
 		(property "Reference" "R7"
-			(at 94.996 66.04 0)
+			(at 94.996 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,8 +3787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 94.996 71.12 0)
+		(property "Value" "10k"
+			(at 94.996 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3797,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 92.202 68.58 90)
+			(at 92.202 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 68.58 0)
+			(at 93.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3815,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 93.98 68.58 0)
+			(at 93.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 162.56 89.154 90)
 			(effects
 				(font
@@ -4456,7 +4475,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 68.58 180)
+		(at 101.6 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4464,7 +4483,7 @@
 		(dnp no)
 		(uuid "9b75159a-2dcd-4b78-928f-c66a77c88339")
 		(property "Reference" "R10"
-			(at 102.616 66.04 0)
+			(at 102.616 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,8 +4491,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 102.616 71.12 0)
+		(property "Value" "10k"
+			(at 102.616 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4501,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 103.378 68.58 90)
+			(at 103.378 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 68.58 0)
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4519,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 68.58 0)
+			(at 101.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 162.56 94.234 90)
 			(effects
 				(font
@@ -5460,7 +5479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 162.56 91.694 90)
 			(effects
 				(font
@@ -5751,7 +5770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 162.56 78.994 90)
 			(effects
 				(font
@@ -5954,7 +5973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 101.6 96.774 90)
 			(effects
 				(font

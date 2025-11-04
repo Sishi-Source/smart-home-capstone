@@ -7,7 +7,11 @@
 	(title_block
 		(title "Multi-Layer Security System")
 		(date "2025-11-02")
-		(rev "0")
+		(rev "2")
+		(comment 1 "Designed by: Sidney Manzano")
+		(comment 2 "Released under the Creative Commons")
+		(comment 3 "Attribution Share-Alike 4.0 License")
+		(comment 4 "https://creativecommons.org/licenses/by-sa/4.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x03"
@@ -3675,7 +3679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 167.64 100.3299 0)
 			(effects
 				(font

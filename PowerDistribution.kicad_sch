@@ -7,7 +7,11 @@
 	(title_block
 		(title "Power Distribution")
 		(date "2025-10-31")
-		(rev "0")
+		(rev "2")
+		(comment 1 "Designed by: Sidney Manzano")
+		(comment 2 "Released under the Creative Commons")
+		(comment 3 "Attribution Share-Alike 4.0 License")
+		(comment 4 "https://creativecommons.org/licenses/by-sa/4.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"

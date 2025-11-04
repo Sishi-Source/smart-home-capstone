@@ -7,9 +7,19 @@
 	(title_block
 		(title "Smart Home Capstone")
 		(date "2025-10-31")
-		(rev "0")
+		(rev "2")
+		(comment 1 "Designed by: Sidney Manzano")
+		(comment 2 "Released under the Creative Commons")
+		(comment 3 "Attribution Share-Alike 4.0 License")
+		(comment 4 "https://creativecommons.org/licenses/by-sa/4.0")
 	)
 	(lib_symbols)
+	(junction
+		(at 102.87 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04c48ae7-52eb-4e77-915e-7ae1de6f3dc4")
+	)
 	(junction
 		(at 105.41 86.36)
 		(diameter 0)
@@ -28,13 +38,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 73.66) (xy 100.33 73.66)
+			(xy 102.87 111.76) (xy 111.76 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08f367fe-10f9-48ea-86e1-ed9d5c5288f9")
+		(uuid "0c674536-0328-4aa5-8a2b-32f0d3f017fd")
+	)
+	(wire
+		(pts
+			(xy 100.33 73.66) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513594d7-5531-4180-a9c8-83b9e93fec70")
 	)
 	(wire
 		(pts
@@ -75,6 +95,16 @@
 			(type default)
 		)
 		(uuid "97000e22-7d11-4955-9eb5-e24cac731dd0")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cc0b78-6c0a-485b-bd6b-2c8694121cd2")
 	)
 	(wire
 		(pts
@@ -319,6 +349,16 @@
 		(pin "5V" input
 			(at 111.76 124.46 180)
 			(uuid "77cad276-557c-4a1e-b10d-b1c27c6269e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3v3" input
+			(at 111.76 111.76 180)
+			(uuid "a939d820-3528-4230-bd5c-aaac92cfa37a")
 			(effects
 				(font
 					(size 1.27 1.27)
