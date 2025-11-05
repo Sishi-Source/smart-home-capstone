@@ -10,7 +10,7 @@
 	(title_block
 		(title "Smart House Control Board")
 		(date "2025-11-04")
-		(rev "2")
+		(rev "3")
 		(comment 1 "Design by: Sidney Manzano")
 		(comment 2 "Released under the Creative Commons")
 		(comment 3 "Attribution Share-Alike 4.0 License")
@@ -11488,7 +11488,7 @@
 		(property "Reference" "U3"
 			(at 0 0 90)
 			(layer "F.SilkS")
-			(uuid "8d7bb82d-03da-4dc9-b2b9-1a4ef74a6dde")
+			(uuid "fc1a9f56-6625-48ca-b153-56c0d60c0d8c")
 			(effects
 				(font
 					(size 1 1)
@@ -11499,7 +11499,7 @@
 		(property "Value" "ESP32-DEVKIT-V1"
 			(at -0.56 27.36 90)
 			(layer "F.Fab")
-			(uuid "39f4d352-f8a5-45f0-bd27-037f7d8c499e")
+			(uuid "0f6dbc66-f527-4242-8906-c36ca11e6501")
 			(effects
 				(font
 					(size 1 1)
@@ -11511,7 +11511,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e2c1513-9133-44dd-a412-81f6bbae0b93")
+			(uuid "1ac6d0cb-7d7c-412f-a575-4e2008c91df4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11523,7 +11523,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da1a1dc9-efc0-4040-a45c-07f4eef3e0fc")
+			(uuid "072bcd31-6abd-418d-bbc9-6341eb7ff49c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,6 +19669,388 @@
 			)
 		)
 	)
+	(gr_line
+		(start 123.4 111.4)
+		(end 123.4 113.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d38b796-cb59-4a41-b5fb-fecfc4742d33")
+	)
+	(gr_line
+		(start 125 111.7)
+		(end 125.2516 111.536609)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e3d9a51-1444-4026-97d0-689b1cffa832")
+	)
+	(gr_line
+		(start 124.45 112.3)
+		(end 124.1 111.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e7fe7ce-2b75-49e9-98e2-f9f2a06de05d")
+	)
+	(gr_line
+		(start 122.5 113.05)
+		(end 122.5 112.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1392c257-6bae-4018-b794-c0cb0d909110")
+	)
+	(gr_line
+		(start 125.1 112.15)
+		(end 125.4 112.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19745011-a707-4385-a86c-9cfb92156b41")
+	)
+	(gr_line
+		(start 125.05 113.75)
+		(end 124.7 114.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c8ea745-c078-43ef-bb53-cd76515de4bd")
+	)
+	(gr_line
+		(start 123.4 112.4)
+		(end 124.35 112.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ced8f5f-866c-4935-98b4-96b16f87272d")
+	)
+	(gr_line
+		(start 124.576155 113.340419)
+		(end 124.8 113.340419)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c90eda9-a980-466f-9329-220d2ca993b0")
+	)
+	(gr_line
+		(start 125.1 111.9)
+		(end 125.270191 111.841398)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "334ca41a-c9f6-4c5f-813d-78143aab0b97")
+	)
+	(gr_line
+		(start 125.1 112.4)
+		(end 125.270193 112.458602)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37491da5-5017-4707-84c4-e2a3a4c5c4b1")
+	)
+	(gr_line
+		(start 121.8 112.4)
+		(end 121.8 114.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "375cf408-ad2a-411a-9871-101d0bf91c52")
+	)
+	(gr_curve
+		(pts
+			(xy 124.38 111.4) (xy 125.02 111.49) (xy 125.28 112.59) (xy 124.4 112.9)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3bca6741-d793-4df4-8cde-e253d944918e")
+	)
+	(gr_line
+		(start 122.325 112.75)
+		(end 122.325 113.05)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4497813e-0aae-422b-a879-7084c2c97ff3")
+	)
+	(gr_line
+		(start 124.9 114.15)
+		(end 125.008271 114.420697)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4872d740-ab7a-465a-ba85-f52f238995bc")
+	)
+	(gr_line
+		(start 122.625 112.9)
+		(end 122.75 112.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d5a0b84-f0b5-4657-ac45-9a84acd75074")
+	)
+	(gr_line
+		(start 122.325 112.9)
+		(end 121.8 112.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "526a0cb3-f5ed-4706-9c79-8014b78f24c6")
+	)
+	(gr_line
+		(start 124.8 113.340419)
+		(end 124.45 113.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c6ea7ba-6fed-4d86-9f6a-dfd667280b55")
+	)
+	(gr_line
+		(start 122.75 112.75)
+		(end 122.75 113.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cfbc1f5-d458-4e47-afe1-d99a0a5e3c99")
+	)
+	(gr_line
+		(start 123.4 112.9)
+		(end 124.4 112.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72dd71a6-20e3-4e74-a779-21b5860741b1")
+	)
+	(gr_line
+		(start 122.925 112.75)
+		(end 122.925 113.05)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c3a8146-4abe-44b5-a325-285ddcf7d04b")
+	)
+	(gr_line
+		(start 123.4 113.4)
+		(end 123.700065 113.813003)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c5a9cb5-d828-4d00-a297-0a416a1ca0e0")
+	)
+	(gr_line
+		(start 123.4 111.4)
+		(end 124.38 111.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8a048297-f769-433c-bfa0-19b99388e9de")
+	)
+	(gr_line
+		(start 122.925 113.05)
+		(end 122.85 113.05)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f003499-002c-466d-bcf9-2ab3d179fdcc")
+	)
+	(gr_line
+		(start 124.4 112.9)
+		(end 124.576155 113.340419)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "938044ef-0cd3-4a67-88fa-8d384db79727")
+	)
+	(gr_line
+		(start 122.85 112.75)
+		(end 122.925 112.75)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9489f929-e6c8-4ff7-ba41-cf87f62c678f")
+	)
+	(gr_line
+		(start 125 112.6)
+		(end 125.251601 112.763392)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b1aca9b-b5a9-4457-b1f8-407c77478d21")
+	)
+	(gr_line
+		(start 123.4 113.9)
+		(end 123.4 114.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f7e694d-8c97-4248-b501-321c922f3c51")
+	)
+	(gr_line
+		(start 124.7 114.15)
+		(end 124.9 114.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b35e1908-d54d-4353-85d4-d3c3a16c3c10")
+	)
+	(gr_line
+		(start 122.5 112.75)
+		(end 122.625 112.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1527766-ffc2-448d-a828-2b9646605abe")
+	)
+	(gr_line
+		(start 122.925 112.9)
+		(end 123.4 112.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb2f4516-9790-4dc0-8555-d1b037b93b5c")
+	)
+	(gr_line
+		(start 121.8 111.887)
+		(end 122.1 112.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd24e7b1-e1f5-41bd-8d71-089ea73e064d")
+	)
+	(gr_line
+		(start 124.45 113.75)
+		(end 125.05 113.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cede1a1f-ec47-4d57-bf6c-46dc1832c2d1")
+	)
+	(gr_line
+		(start 124.45 111.9)
+		(end 124.45 112.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cfe8ceb8-6837-41ae-9298-33a404847232")
+	)
+	(gr_line
+		(start 122.325 113.05)
+		(end 122.4 113.05)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d47396c0-95d0-4385-8dc3-16e584ebe59b")
+	)
+	(gr_line
+		(start 121.8 111.4)
+		(end 121.8 111.887)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de84265c-4858-4081-a93d-75284d71ef33")
+	)
+	(gr_circle
+		(center 122.625 112.9)
+		(end 122.9 112.9)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e383c098-58bd-49e3-96e6-0fcdd54b9630")
+	)
+	(gr_line
+		(start 122.4 112.75)
+		(end 122.325 112.75)
+		(stroke
+			(width 0.025)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e915358f-4442-453d-a1c0-52c31091a989")
+	)
+	(gr_line
+		(start 123.4 111.9)
+		(end 124.45 111.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f836d541-33f7-49de-8d73-6b3aa148d5db")
+	)
 	(gr_rect
 		(start 55.58 34.2)
 		(end 156.105 141.575)
@@ -19679,6 +20061,26 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "13b3789e-c400-4dd0-aca3-5b5d5cb4b9e6")
+	)
+	(gr_text_box "Smart Home Control Board\nDesign by: Sidney Manzano"
+		(start 98.775 110.7)
+		(end 127.625 115.1)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "8b1a9b0e-dad0-44d1-8b9e-070614262b8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
 	)
 	(segment
 		(start 87.72 50.693686)
